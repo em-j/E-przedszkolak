@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E-Przedszkolak</string>
+    <string name="Kolory">Kolory</string>
+    <string name="Matematyka">Matematyka</string>
+    <string name="Zwierzęta">Zwierzęta</string>
+    <string name="NumbAndLetters">Cyferki i Literki</string>
+    <string name="Vege">Owoce i Warzywa</string>
+    <string name="graj">GRAJ</string>
+    <string name="dalej"><![CDATA[Dalej->]]></string>
+    <string name="pigi">pigi</string>
+    <string name="świnka">świnka</string>
+    <string name="kotek">kot</string>
+    <string name="owoce">Owoce</string>
+    <string name="warzywa">Warzywa</string>
+    <string name="banan">banan</string>
+    <string name="jablka">jablka</string>
+    <string name="pear">pear</string>
+    <string name="cherry">cherry</string>
+    <string name="apple">Apple</string>
+    <string name="czerwony">czerwony</string>
+    <string name="niebieski">niebieski</string>
+    <string name="zielony">zielony</string>
+    <string name="zolty">zolty</string>
+    <string name="carrot">carrot</string>
+    <string name="dodawanie">Dodawanie</string>
+    <string name="odejmowanie">Odejmowanie</string>
+    <string name="mnożenie">Mnożenie</string>
+    <string name="cztery">4</string>
+    <string name="trzydziescipiec">35</string>
+    <string name="jeden">1</string>
+
+</resources>

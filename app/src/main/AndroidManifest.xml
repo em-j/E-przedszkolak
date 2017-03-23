@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.em.e_przedszkolak">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tlomale"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyAnimals"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Pig"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Rabbit"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Snake"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Bananna"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyVege"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cherry"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Apple"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Pear"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Blue"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Red"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Green"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Yellow"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyColor"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tomato"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Carrot"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyMath"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyNumb"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Two"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".C"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Three"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".plus1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".minus1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".razy1"
+            android:screenOrientation="portrait"/>
+
+
+
+   </application>
+
+
+</manifest>
