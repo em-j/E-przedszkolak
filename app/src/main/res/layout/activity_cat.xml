@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/omonom">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="151dp"
+        android:layout_height="90dp"
+        android:text="@string/dalej"
+        android:background="@drawable/buttonapka"
+        android:id="@+id/buttonCat"
+        android:onClick="onButtonOpenRabbit"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewCat"
+        android:src="@drawable/kot"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/pigi"
+        android:layout_weight="0.30" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/editTextCat"
+        android:layout_weight="0.76"
+        android:hint="Wpisz tutaj tekst"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="none" />
+
+</LinearLayout>
